@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javax.mail:mail:1.4.1'
+}
+
+mainClassName = 'spec.main.SpecView'
